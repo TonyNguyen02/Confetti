@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <link rel="sylesheeet" type="text/css" href="syles.cc"
+ </head>
+ <body>
+  <div class="button-wrapper">
+   <button class="confetti-button">WOOOOWW</button>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+ document.getElementsByClassName("confetti-button")[0].addEventListener("click", () => {
+  confetti();
+ });
+</script>
+</body>
+</html>
